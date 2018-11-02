@@ -55,7 +55,7 @@ public class Vertice {
 
 	@Override
 	public String toString() {
-		return "\t\t nome: "+ nome +" \t\t pai: " + elementoPai + "\t\t " + valor;
+		return "\t\t nome: "+ nome +" \t\t pai: " + elementoPai + "\t\t custo: " + valor;
 	}
 
 	@Override
