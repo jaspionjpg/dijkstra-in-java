@@ -86,3 +86,46 @@ Onde ele retorna o indice da vertice, nome(nomeclatura), o indice da vertice que
 > 5		 nome: X 		 pai: 4		 custo: 6  
 > 6		 nome: Y 		 pai: 3		 custo: 5  
 > 7		 nome: Z 		 pai: 1		 custo: 3
+
+
+---  
+---  
+# Outros casos de teste e implementação
+
+```
+// Caso 1
+String teste1aula_aComeco = "A";		
+String teste1aula_zComeco = "Z";
+
+// Grafo 2º aula
+int[][] grafo2 = {	{0, 4, 0, 5, 0, 0, 2, 0},
+			{4, 0, 5, 0, 0, 0, 1, 0},
+			{0, 5, 0, 0, 0, 1, 0, 1},
+			{5, 0, 0, 0, 2, 0, 1, 0},
+			{0, 0, 0, 2, 0, 1, 0, 3},
+			{0, 0, 1, 0, 1, 0, 0, 2},
+			{2, 1, 0, 1, 0, 0, 0, 0},
+			{0, 0, 1, 0, 3, 2, 0, 0}};
+String[] nomesGrafo2 = {"A", "B", "C", "D", "E", "F", "G", "Z"};
+ResultadoDijkstra resultadoDijkstra = new Dijkstra(grafo2, nomesGrafo2).calcule(teste1aula_aComeco).melhorCaminho(teste1aula_zComeco);
+System.out.println(resultadoDijkstra);
+// Resultado: Da vertice A ao Z o caminho de menor custo foi: [A, G, D, E, Z] com custo 8
+
+// Caso 2
+String teste2aula_aComeco = "1";		
+String teste2aula_zComeco = "6";
+
+// Grafo 3º aula
+int[][] grafo3 = {	{0, 15, 9, 0, 0, 0},
+			{0, 0, 0, 2, 0, 0},
+			{0, 4, 0, 3, 16, 0},
+			{0, 0, 0, 0, 6, 21},
+			{0, 0, 0, 0, 0, 7},
+			{0, 0, 0, 0, 0, 0}};
+String[] nomesGrafo3 = {"1", "2", "3", "4", "5", "6"};
+resultadoDijkstra = new Dijkstra(grafo3, nomesGrafo3).calcule(teste2aula_aComeco).melhorCaminho(teste2aula_zComeco);
+System.out.println(resultadoDijkstra);
+// Resultado: Da vertice 1 ao 6 o caminho de menor custo foi: [1, 3, 4, 5, 6] com custo 25
+```
+
+
