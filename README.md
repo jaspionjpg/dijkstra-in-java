@@ -30,7 +30,7 @@ System.out.println(vertices);
 
 Resultado no console com base no método toString();
 
-Da vertice X ao S o caminho de menor custo foi: [X, W, V, U, T, S] com custo 6
+> Da vertice X ao S o caminho de menor custo foi: [X, W, V, U, T, S] com custo 6
 
 ---
 
@@ -48,14 +48,14 @@ for (int i = 0; i < vertices2.size(); i++) {
 Resultado no console com base no método toString();  
 Onde ele retorna o indice da vertice, nome(nomeclatura), o indice da vertice que fez a conexão com o vertice atual, e o custo até o local.
 
-0		 nome: 0 		 pai: 0		 custo: 0  
-1		 nome: 1 		 pai: 0		 custo: 1  
-2		 nome: 2 		 pai: 1		 custo: 3  
-3		 nome: 3 		 pai: 2		 custo: 4  
-4		 nome: 4 		 pai: 3		 custo: 5  
-5		 nome: 5 		 pai: 4		 custo: 6  
-6		 nome: 6 		 pai: 3		 custo: 5  
-7		 nome: 7 		 pai: 1		 custo: 3
+> 0		 nome: 0 		 pai: 0		 custo: 0  
+> 1		 nome: 1 		 pai: 0		 custo: 1  
+> 2		 nome: 2 		 pai: 1		 custo: 3  
+> 3		 nome: 3 		 pai: 2		 custo: 4  
+> 4		 nome: 4 		 pai: 3		 custo: 5  
+> 5		 nome: 5 		 pai: 4		 custo: 6  
+> 6		 nome: 6 		 pai: 3		 custo: 5  
+> 7		 nome: 7 		 pai: 1		 custo: 3
 
 ---
 
@@ -78,11 +78,11 @@ System.out.println(vertices);
 Resultado no console com base no método toString();  
 Onde ele retorna o indice da vertice, nome(nomeclatura), o indice da vertice que fez a conexão com o vertice atual, e o custo até o local.
 
-0		 nome: S 		 pai: 0		 custo: 0  
-1		 nome: T 		 pai: 0		 custo: 1  
-2		 nome: U 		 pai: 1		 custo: 3  
-3		 nome: V 		 pai: 2		 custo: 4  
-4		 nome: W 		 pai: 3		 custo: 5  
-5		 nome: X 		 pai: 4		 custo: 6  
-6		 nome: Y 		 pai: 3		 custo: 5  
-7		 nome: Z 		 pai: 1		 custo: 3
+> 0		 nome: S 		 pai: 0		 custo: 0  
+> 1		 nome: T 		 pai: 0		 custo: 1  
+> 2		 nome: U 		 pai: 1		 custo: 3  
+> 3		 nome: V 		 pai: 2		 custo: 4  
+> 4		 nome: W 		 pai: 3		 custo: 5  
+> 5		 nome: X 		 pai: 4		 custo: 6  
+> 6		 nome: Y 		 pai: 3		 custo: 5  
+> 7		 nome: Z 		 pai: 1		 custo: 3
